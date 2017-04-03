@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.gslab.services.TestListener"/>
+  </listeners>
+  <test name="test1(failed)" parallel="tests">
+    <classes>
+      <class name="testweb.Test1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginVerification" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- testweb.Test1 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 42.448 sec <<< FAILURE! - in TestSuite
+loginVerification(testweb.Test1)  Time elapsed: 1.925 sec  <<< FAILURE!
+java.lang.AssertionError: "By.xpath: //input[@type='password']" is not present. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.gslab.services.Services.assertAndVerifyElement(Services.java:59)
+	at com.gslab.services.Services.assertElementAndType(Services.java:84)
+	at pages.Home.loginVerification(Home.java:63)
+	at testweb.Test1.loginVerification(Test1.java:43)
+
+loginVerification(testweb.Test1)  Time elapsed: 1.718 sec  <<< FAILURE!
+java.lang.AssertionError: "By.xpath: //input[@type='password']" is not present. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.gslab.services.Services.assertAndVerifyElement(Services.java:59)
+	at com.gslab.services.Services.assertElementAndType(Services.java:84)
+	at pages.Home.loginVerification(Home.java:63)
+	at testweb.Test1.loginVerification(Test1.java:43)
+

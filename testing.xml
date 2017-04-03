@@ -1,0 +1,16 @@
+<suite name="Test Suite" parallel="tests">
+
+<listeners>
+<listener class-name="com.gslab.services.TestListener" />
+</listeners>
+
+<test name="test1">
+<classes>
+<class name="testweb.Test1"  />
+
+
+</classes>
+
+</test>
+
+</suite>

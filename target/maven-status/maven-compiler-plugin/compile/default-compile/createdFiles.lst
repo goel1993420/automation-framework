@@ -1,0 +1,16 @@
+com\gslab\services\ReadExcelFiles.class
+utils\CurrentWorkingDirectory.class
+testweb\P.class
+testweb\Test1.class
+com\gslab\services\RetryAnalyzer.class
+com\gslab\services\Services.class
+constants\ErrorConstants.class
+locators\MailLoactors.class
+com\gslab\services\Init.class
+pages\Home.class
+com\gslab\services\TestListener.class
+com\gslab\services\ReadPropertiesFile.class
+locators\LoginLocators.class
+constants\FileConstants.class
+locators\DragAndDropLocators.class
+constants\Constants.class
